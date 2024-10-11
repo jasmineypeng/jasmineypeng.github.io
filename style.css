@@ -1,6 +1,29 @@
 * {
     margin: 0;
 }
+.navbar {
+    background-color: white;      /* Dark background */
+    overflow: hidden;            /* Clear floats */
+}
+
+.container {
+    display: flex;              
+    justify-content: space-around; 
+    padding: 10px 0;            
+}
+
+.nav-link {
+    color: black;               
+    text-decoration: none;      
+    padding: 14px 20px;        
+    font-size: 1em;             
+    transition: background-color 0.3s; 
+}
+
+.nav-link:hover {
+    background-color: #575757;   /* Darker background on hover */
+}
+
 
 .container {
     display: flex;               
