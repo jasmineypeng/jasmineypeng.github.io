@@ -27,15 +27,13 @@
 
 
 .container {
-    display: flex;               
-    flex-direction: column;      
-    justify-content: space-between; 
     margin: auto;
     width: 60%;
     font-size: 1.1em;
+    margin: auto;
     padding: 30px;
-    min-height: calc(100vh - 60px); 
 }
+
 p {
     margin: 0;
     padding: 0;
@@ -59,7 +57,7 @@ h3 {
 }
 
 footer {
-    margin-top: auto;  
+    position: absolute;
     bottom: 0;
     width: 100%;
     text-align: center;
